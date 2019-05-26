@@ -1,2 +1,2 @@
 # pt_uygulama
-açıklayacak birşey yok pt sınavı için yazılmış bir uygulama
+programı yazması zor ise okumasıda zor olmalı felsefesiyle yazdığım bir program
