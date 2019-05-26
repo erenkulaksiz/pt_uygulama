@@ -22,7 +22,7 @@ namespace pt_uygulama
         // metoduna yazarakda çalıştırabilirdik. Burada sadece
         // işlemleri koydum. Biraz farklı.
         //
-        // Son güncelleme: 26.05.2019 22:00 civarları
+        // Son güncelleme: 26.05.2019 00:00 civarları
 
 
         // Basit matematiksel işlemler
