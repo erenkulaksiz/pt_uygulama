@@ -5,3 +5,10 @@ C:\Users\ayhan\AppData\Local\Temporary Projects\pt_uygulama\obj\Debug\pt_uygulam
 C:\Users\ayhan\AppData\Local\Temporary Projects\pt_uygulama\obj\Debug\pt_uygulama.csproj.CoreCompileInputs.cache
 C:\Users\ayhan\AppData\Local\Temporary Projects\pt_uygulama\obj\Debug\pt_uygulama.exe
 C:\Users\ayhan\AppData\Local\Temporary Projects\pt_uygulama\obj\Debug\pt_uygulama.pdb
+C:\Users\ayhan\Desktop\pt_uygulama\bin\Debug\pt_uygulama.exe.config
+C:\Users\ayhan\Desktop\pt_uygulama\bin\Debug\pt_uygulama.exe
+C:\Users\ayhan\Desktop\pt_uygulama\bin\Debug\pt_uygulama.pdb
+C:\Users\ayhan\Desktop\pt_uygulama\obj\Debug\pt_uygulama.csprojAssemblyReference.cache
+C:\Users\ayhan\Desktop\pt_uygulama\obj\Debug\pt_uygulama.csproj.CoreCompileInputs.cache
+C:\Users\ayhan\Desktop\pt_uygulama\obj\Debug\pt_uygulama.exe
+C:\Users\ayhan\Desktop\pt_uygulama\obj\Debug\pt_uygulama.pdb
