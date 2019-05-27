@@ -1,2 +1,2 @@
 # pt_uygulama
-programı yazması zor ise okumasıda zor olmalı felsefesiyle yazdığım bir program
+27.05.2019 18:54 PT Uygulama Sınavı için yazılan küçük bir program.
