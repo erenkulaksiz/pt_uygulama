@@ -22,7 +22,7 @@ namespace pt_uygulama
         // metoduna yazarakda çalıştırabilirdik. Burada sadece
         // işlemleri koydum. Biraz farklı.
         //
-        // Son güncelleme: 26.05.2019 00:00 civarları
+        // Son güncelleme: 26.05.2019 22:00 civarları
 
 
         // Basit matematiksel işlemler
@@ -129,7 +129,11 @@ namespace pt_uygulama
             return sonuc;
         }
         //////////////////////////////////////////
-        public static int[] dizisirala(int[] dizi) { int[] sonuc = dizi; Array.Sort(sonuc);  return sonuc; }
+        // Küçükten büyüğe sıralar
+        public static int[] dizisiralakb(int[] dizi) { int[] sonuc = dizi; Array.Sort(sonuc);  return sonuc; }
+
+        // Büyükten küçüğe sıralar
+        public static int[] dizisiralabk(int[] dizi) { int[] sonuc = dizi; Array.Sort(sonuc); Array.Reverse(sonuc);  return sonuc; }
         //////////////////////////////////////////
 
         static void Main(string[] args)
@@ -138,6 +142,7 @@ namespace pt_uygulama
 
             //////////////////////////////////////////////////////////////////
             Console.Clear();
+            Console.Title = "[EREN KULAKSIZ] - [1411] - [10/A AMP] - [PT]";
             Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine("   .----------------------------------------.");
             Console.WriteLine("   |                                       | |");
@@ -221,7 +226,7 @@ namespace pt_uygulama
             //////////////////////////////////////////////////////////////////
             Console.WriteLine("   |                                       | |");
             Console.Write("   |      ");
-            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.ForegroundColor = ConsoleColor.Red;
             Console.Write("13) ");
             Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine("Menüden Çıkış                | |");
@@ -754,10 +759,10 @@ namespace pt_uygulama
                         Console.Write(" "+sayilar_siralanmamis_dizi);
                     }
                     //////////////
-                    siralanmis_dizi = dizisirala(siralanmamis_dizi);
+                    siralanmis_dizi = dizisiralakb(siralanmamis_dizi);
                     //////////////
                     Console.ForegroundColor = ConsoleColor.White;
-                    Console.Write("\n\n > Sıralanmış dizi: ");
+                    Console.Write("\n\n > Sıralanmış dizi (K-B): ");
                     Console.ForegroundColor = ConsoleColor.Cyan;
                     //////////////
                     foreach (int sayilar_siralanmis_dizi in siralanmis_dizi)
@@ -766,6 +771,18 @@ namespace pt_uygulama
                     }
                     Console.ForegroundColor = ConsoleColor.White;
                     //////////////
+                    siralanmis_dizi = dizisiralabk(siralanmamis_dizi);
+                    Console.ForegroundColor = ConsoleColor.White;
+                    Console.Write("\n\n > Sıralanmış dizi (B-K): ");
+                    Console.ForegroundColor = ConsoleColor.Cyan;
+                    //////////////
+                    foreach (int sayilar_siralanmis_dizi in siralanmis_dizi)
+                    {
+                        Console.Write(" " + sayilar_siralanmis_dizi);
+                    }
+                    Console.ForegroundColor = ConsoleColor.White;
+                    //////////////
+
                     Console.Write("\n\n > Menüye dönmek ister misiniz? (E-H): ");
                     secenek_donus = Convert.ToChar(Console.ReadLine());
                     if (secenek_donus == 'E' || secenek_donus == 'e') goto menuyedon;
@@ -799,10 +816,6 @@ namespace pt_uygulama
     }
 }
 
+// Eren Kulaksız // 27.05.2019 // 18:35
 
-           //////////////////////////////////////////////////////////////////////////
-           // Murphy kanunu: birşeyin ters gitme olasılığı varsa, ters gidecektir. //
-           //                                                                      //
-           //            O yüzden en kötü olana hazırlanmamız gerek.               //
-           //////////////////////////////////////////////////////////////////////////
 
