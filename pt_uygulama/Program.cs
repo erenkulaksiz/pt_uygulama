@@ -8,11 +8,13 @@ namespace pt_uygulama
 {
     class Program
     {
+        // 
+        
         // Programlama Temelleri uygulaması
         //
-        // AD/SOYAD: Eren Kulaksız
-        // SINIF:    10/A AMP
-        // NO:       1411
+        // AD/SOYAD: Eren K.
+        // SINIF:    --
+        // NO:       --
         //
         // Amaç, tüm işlemleri bir metotta yapmak değil, sadece
         // matematiksel işlemleri metotlarda yaparak main metoduna
@@ -22,7 +24,8 @@ namespace pt_uygulama
         // metoduna yazarakda çalıştırabilirdik. Burada sadece
         // işlemleri koydum. Biraz farklı.
         //
-        // Son güncelleme: 26.05.2019 22:00 civarları
+        // Son güncelleme: 25.08.2019
+        // - Bazı özel bilgileri kaldırdım.
 
 
         // Basit matematiksel işlemler
@@ -816,6 +819,6 @@ namespace pt_uygulama
     }
 }
 
-// Eren Kulaksız // 27.05.2019 // 18:35
+// Eren K. // 27.05.2019 // 18:35
 
 
